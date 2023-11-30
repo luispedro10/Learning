@@ -24,6 +24,19 @@ int main(){
     long long int longinteger = 7537538275827; //8 bytes %lld 
     unsigned long long int muylonginteger = 4374273847398990000U; // 8bytes %%llu
 
-    printf("%c, %u,%d, %0.15lf, %llu", f, ju, esigual, dc, muylonginteger);
+   // printf("%c, %u,%d, %0.15lf, %llu \n", f, ju, esigual, dc, muylonginteger);
+
+    float item1price = 5.75;
+    float item2price = 10.00;
+    float item3price = 100.99;
+
+    // printf("Precios: $%.2f, $%.2f, $%.2f", item1price, item2price, item3price);
+
+    const float PI = 3.141592;
+
+
+
+
+
     return 0;
 }
